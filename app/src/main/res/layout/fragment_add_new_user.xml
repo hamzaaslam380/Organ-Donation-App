@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF4CD"
+    android:orientation="vertical"
+    tools:context=".addNewUserFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addNewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#F44336"
+        app:hintTextAppearance="@style/floatingHintStyle">
+
+        <EditText
+            android:id="@+id/etFragAddUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addNewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#F44336"
+        app:hintTextAppearance="@style/floatingHintStyle">
+
+        <EditText
+            android:id="@+id/etFragAddUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Enter Your Email"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addNewPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#F44336"
+        app:hintTextAppearance="@style/floatingHintStyle">
+
+        <EditText
+            android:id="@+id/etFragAddUserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Enter Your Phone Number"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#F44336"
+        app:hintTextAppearance="@style/floatingHintStyle">
+
+        <EditText
+            android:id="@+id/etFragAddUserPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Enter Your Password"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addNewConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#F44336"
+        app:hintTextAppearance="@style/floatingHintStyle">
+
+        <EditText
+            android:id="@+id/etFragAddUserConfirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Confirm Your Password"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnAddUserFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedbutton"
+        android:gravity="center"
+        android:text="Add"
+        app:backgroundTint="#F44336" />
+</LinearLayout>

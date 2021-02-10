@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "242848054247",
+    "project_id": "organ-donation-app-f3074",
+    "storage_bucket": "organ-donation-app-f3074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242848054247:android:5cdf41f8418fa92cc65b42",
+        "android_client_info": {
+          "package_name": "com.example.organdonationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242848054247-uprilljv5bn56sgfter8vp674bkbbov8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlXh4XbVQP1k8zrtMnx2bWdieHj_wDvzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242848054247-uprilljv5bn56sgfter8vp674bkbbov8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

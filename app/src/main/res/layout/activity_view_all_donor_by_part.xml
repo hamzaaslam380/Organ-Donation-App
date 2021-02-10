@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewAllDonorByPartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b71c1c"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="#b71c1c"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Donors"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="#b71c1c"
+            app:srcCompat="@drawable/back" />
+    </LinearLayout>
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.organdonationapp.ViewAllDonorByPartFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_view_all_donor_by_part" />
+
+</LinearLayout>

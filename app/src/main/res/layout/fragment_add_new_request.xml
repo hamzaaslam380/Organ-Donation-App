@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF4CD"
+    android:orientation="vertical"
+    tools:context=".AddNewRequestFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ttContactUsCNIC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        app:boxBackgroundColor="#FFFFFF"
+        app:hintTextAppearance="@style/floatingHintStyle">
+
+        <EditText
+            android:id="@+id/etContactUsCNIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Enter Your CNIC Number"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ttContactUSComplain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        app:boxBackgroundColor="#FFFFFF"
+        app:hintTextAppearance="@style/floatingHintStyle">
+
+        <EditText
+            android:id="@+id/etContactUsComplain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Your Complain or Suggestion"
+            android:inputType="textMultiLine" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Submit"
+        android:background="@drawable/roundedbutton"
+        app:backgroundTint="#F44336" />
+</LinearLayout>
